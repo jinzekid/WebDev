@@ -1,18 +1,18 @@
 方法1:(使用Cordova)
 1.创建一个Cordova目录</br>
-$mkdir Cordova
+   $mkdir Cordova
 </br>
 2.进入Cordova目录</br>
-$cd Cordova
+   $cd Cordova
 </br>
 3.创建一个cordova目录</br>
-$Cordova cordova create test com.example.hello TestCordova
+   $Cordova cordova create test com.example.hello TestCordova
 </br>
 4.进入到test目录</br>
-$cd test
+   $cd test
 </br>
 5.指定生成iOS平台的代码项目</br>
-test$ cordova platforms add ios
+   test$ cordova platforms add ios
 </br>
 6.把如图中的文件夹copy到我们的原生项目中
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/1.png)
@@ -30,7 +30,7 @@ test$ cordova platforms add ios
 NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/5.png)
 
-10. Build Settings -> Other Linker Flags 中添加"-ObjC -all_load"（或者"-ObjC"）
+10.Build Settings -> Other Linker Flags 中添加"-ObjC -all_load"（或者"-ObjC"）
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/6.png)
 
 11.添加CordovaLib.xcodeproj到项目
