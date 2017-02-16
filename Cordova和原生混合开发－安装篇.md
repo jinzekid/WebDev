@@ -45,6 +45,7 @@ Build Phases -> Link Binary With Libraries -> libCordova.a</br></br>
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/9.png)
 </br></br>
 14.最后把ViewController.h文件修改如下，编译后就可以运行了。</br>
+![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/11.png)
 </br></br>
 -------------------------------------我是分割线----------------------------------
 </br></br>
