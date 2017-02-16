@@ -39,9 +39,9 @@ NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/d
 12.添加www文件夹和config.xml文件
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/8.png)
 </br></br>
-13.Schemes按照下图配置，然后编译一次程序，最后导入下面两项
-Build Phases -> Target Dependencies -> CordovaLib</br>
-Build Phases -> Link Binary With Libraries -> libCordova.a</br>
+13.Schemes按照下图配置，然后编译一次程序，最后导入下面两项</br></br>
+Build Phases -> Target Dependencies -> CordovaLib</br></br>
+Build Phases -> Link Binary With Libraries -> libCordova.a</br></br>
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/9.png)
 </br></br>
 14.最后把ViewController.h文件修改如下，编译后就可以运行了。</br>
