@@ -15,4 +15,4 @@ $cd test
 ➜  test cordova platforms add ios
 
 6.把如图中的文件夹copy到我们的原生项目中
-![](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/1.png)
+![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/1.png)
