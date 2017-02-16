@@ -1,0 +1,18 @@
+方法1:(使用Cordova)
+1.创建一个Cordova目录
+$mkdir Cordova
+
+2.进入Cordova目录
+$cd Cordova
+
+3.创建一个cordova目录
+➜  Cordova cordova create test com.example.hello TestCordova
+
+4.进入到test目录
+$cd test
+
+5.指定生成iOS平台的代码项目
+➜  test cordova platforms add ios
+
+6.把如图中的文件夹copy到我们的原生项目中
+![](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/1.png)
