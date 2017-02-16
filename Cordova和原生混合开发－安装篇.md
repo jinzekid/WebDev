@@ -1,7 +1,7 @@
 方法1:(使用Cordova)
 1.创建一个Cordova目录</br>
    $mkdir Cordova
-</br>
+</br></br>
 2.进入Cordova目录</br>
    $cd Cordova
 </br>
