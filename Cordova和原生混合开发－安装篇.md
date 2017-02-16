@@ -1,19 +1,19 @@
 方法1:(使用Cordova)
-1.创建一个Cordova目录＜/br＞
+1.创建一个Cordova目录</br>
 $mkdir Cordova
-＜/br＞
-2.进入Cordova目录＜/br＞
+</br>
+2.进入Cordova目录</br>
 $cd Cordova
-＜/br＞
-3.创建一个cordova目录＜/br＞
+</br>
+3.创建一个cordova目录</br>
 $Cordova cordova create test com.example.hello TestCordova
-＜/br＞
-4.进入到test目录＜/br＞
+</br>
+4.进入到test目录</br>
 $cd test
-＜/br＞
-5.指定生成iOS平台的代码项目＜/br＞
+</br>
+5.指定生成iOS平台的代码项目</br>
 test$ cordova platforms add ios
-＜/br＞
+</br>
 6.把如图中的文件夹copy到我们的原生项目中
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/1.png)
 
@@ -44,37 +44,37 @@ Build Phases -> Target Dependencies -> CordovaLib
 Build Phases -> Link Binary With Libraries -> libCordova.a
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/9.png)
 
-14.最后把ViewController.h文件修改如下，编译后就可以运行了。
-#import <Cordova/CDVViewController.h>＜/br＞
-#import <Cordova/CDVCommandDelegateImpl.h>＜/br＞
-#import <Cordova/CDVCommandQueue.h>＜/br＞
-@interface ViewController : CDVViewController＜/br＞
-@end＜/br＞
-＜/br＞＜/br＞
+14.最后把ViewController.h文件修改如下，编译后就可以运行了。</br>
+#import <Cordova/CDVViewController.h></br>
+#import <Cordova/CDVCommandDelegateImpl.h></br>
+#import <Cordova/CDVCommandQueue.h></br>
+@interface ViewController : CDVViewController</br>
+@end</br>
+</br></br>
 -------------------------------------我是分割线----------------------------------
-＜/br＞＜/br＞
-方法2:(推荐使用ionic)
-1.安装ionic＜/br＞
+</br></br>
+方法2:(推荐使用ionic)</br>
+1.安装ionic</br>
 npm install -g cordova ionic
 
-2.开始一个项目（三种方法）＜/br＞
-- $ ionic start --v2 myApp blank＜/br＞
-- $ ionic start --v2 myApp tabs＜/br＞
-- $ ionic start --v2 myApp sidemenu＜/br＞
+2.开始一个项目（三种方法）</br>
+- $ ionic start --v2 myApp blank</br>
+- $ ionic start --v2 myApp tabs</br>
+- $ ionic start --v2 myApp sidemenu</br>
 
-3.添加对应平台＜/br＞
-ionic platform add $platform＜/br＞
-ionic platform add ios＜/br＞
-ionic platform add android＜/br＞
+3.添加对应平台</br>
+ionic platform add $platform</br>
+ionic platform add ios</br>
+ionic platform add android</br>
 
-4.编译对应平台＜/br＞
-ionic build ios＜/br＞
-ionic build android＜/br＞
-＜/br＞
-PS:基本方法和Cordova大致一样。如果有新加的插件，需要把plugin文件也一起添加进项目。＜/br＞
+4.编译对应平台</br>
+ionic build ios</br>
+ionic build android</br>
+</br>
+PS:基本方法和Cordova大致一样。如果有新加的插件，需要把plugin文件也一起添加进项目。</br>
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/10.png)
-＜/br＞
+</br>
 参考网址：http://www.jianshu.com/p/e982b9a85ae8
-＜/br＞
+</br>
 参考网址：http://ionicframework.com/getting-started/
 
