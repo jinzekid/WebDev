@@ -6,13 +6,13 @@ $mkdir Cordova
 $cd Cordova
 
 3.创建一个cordova目录
-➜  Cordova cordova create test com.example.hello TestCordova
+$Cordova cordova create test com.example.hello TestCordova
 
 4.进入到test目录
 $cd test
 
 5.指定生成iOS平台的代码项目
-➜  test cordova platforms add ios
+test$ cordova platforms add ios
 
 6.把如图中的文件夹copy到我们的原生项目中
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/1.png)
@@ -51,15 +51,13 @@ Build Phases -> Link Binary With Libraries -> libCordova.a
 @interface ViewController : CDVViewController
 @end
 
-参考网址：http://www.jianshu.com/p/e982b9a85ae8
-
-
+-------------------------------------我是分割线----------------------------------
 
 方法2:(推荐使用ionic)
 1.安装ionic
 npm install -g cordova ionic
 
-2.开始一个项目（三种方法，参考网址：http://ionicframework.com/getting-started/）
+2.开始一个项目（三种方法）
 - $ ionic start --v2 myApp blank
 - $ ionic start --v2 myApp tabs
 - $ ionic start --v2 myApp sidemenu
@@ -73,10 +71,9 @@ ionic platform add android
 ionic build ios
 ionic build android
 
-
 PS:基本方法和Cordova大致一样。如果有新加的插件，需要把plugin文件也一起添加进项目。
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/10.png)
 
-
-
+参考网址：http://www.jianshu.com/p/e982b9a85ae8
+参考网址：http://ionicframework.com/getting-started/
 
