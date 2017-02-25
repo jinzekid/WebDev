@@ -74,3 +74,5 @@ PS:基本方法和Cordova大致一样。如果有新加的插件，需要把plug
 </br></br>
 参考网址：http://ionicframework.com/getting-started/
 
+### 单行文本框  
+    这是一个单行的文本框,只要两个Tab再输入文字即可
