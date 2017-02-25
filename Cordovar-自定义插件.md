@@ -49,5 +49,14 @@
  ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/7.png)
   ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/8.png)
   
-### 7
-    
+测试插件(打开platforms/ios文件中的xcode项目）
+=============================
+
+### 7.修改index.html文件内容如下：
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/9.png)
+### 8.修改js文件夹下面的index.js文件：
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/10.png) 
+### 9.在onDeviceReady方法中添加插件方法，如下：
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/11.png) 
+
+
