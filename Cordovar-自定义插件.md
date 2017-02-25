@@ -20,8 +20,8 @@
 ### 3.修改对应的原生文件
     在原生文件中添加对应的方法
     比如：（iOS方法）
-    - (void) cordovaGetFileContents:(CDVInvokedUrlCommand *)command;
-    - (void) cordovaSetFileContents:(CDVInvokedUrlCommand *)command;
+        - (void) cordovaGetFileContents:(CDVInvokedUrlCommand *)command;
+        - (void) cordovaSetFileContents:(CDVInvokedUrlCommand *)command;
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/3.png)
 
 ### 4.修改www文件夹下面的.js文件
@@ -58,5 +58,9 @@
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/10.png) 
 ### 9.在onDeviceReady方法中添加插件方法，如下：
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/11.png) 
+### 10.最后运行效果：
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/12.png)
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/13.png) 
+
 
 
