@@ -28,37 +28,32 @@
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/7.png)
 ### 12.添加www文件夹和config.xml文件
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/8.png)
-### 13.Schemes按照下图配置，然后编译一次程序，最后导入下面两项</br></br>
+### 13.Schemes按照下图配置，然后编译一次程序，最后导入下面两项
       Build Phases -> Target Dependencies -> CordovaLib</br></br>
       Build Phases -> Link Binary With Libraries -> libCordova.a</br></br>
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/9.png)
 ### 14.最后把ViewController.h文件修改如下，编译后就可以运行了。</br>
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/11.png)
 
--------------------------------------我是分割线----------------------------------
+------------我是分割线------------
 ===================================
 方法2:(使用ionic)
 ===================================
-1.安装ionic</br>
-- $ npm install -g cordova ionic
-</br></br>
-2.开始一个项目（三种方法）</br>
-- $ ionic start --v2 myApp blank</br>
-- $ ionic start --v2 myApp tabs</br>
-- $ ionic start --v2 myApp sidemenu</br>
-</br></br>
-3.添加对应平台</br>
-- $ ionic platform add $platform</br>
-- $ ionic platform add ios</br>
-- $ ionic platform add android</br>
-</br></br>
-4.编译对应平台</br>
-- $ ionic build ios</br>
-- $ ionic build android</br>
-</br></br>
-PS:基本方法和Cordova大致一样。如果有新加的插件，需要把plugin文件也一起添加进项目。</br>
+### 1.安装ionic
+      $npm install -g cordova ionic
+### 2.开始一个项目（三种方法
+      $ionic start --v2 myApp blank
+      $ionic start --v2 myApp tabs
+      $ionic start --v2 myApp sidemenu
+### 3.添加对应平台
+      $ionic platform add $platform
+      $ionic platform add ios
+      $ionic platform add android
+### 4.编译对应平台
+      $ionic build ios
+      $ionic build android
+### PS:基本方法和Cordova大致一样。如果有新加的插件，需要把plugin文件也一起添加进项目。
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/10.png)
-</br></br>
-参考网址：http://www.jianshu.com/p/e982b9a85ae8
-</br></br>
-参考网址：http://ionicframework.com/getting-started/
+### 参考网址：
+      http://www.jianshu.com/p/e982b9a85ae8
+      http://ionicframework.com/getting-started/
