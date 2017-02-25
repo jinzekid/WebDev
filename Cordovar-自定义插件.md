@@ -44,5 +44,12 @@
         cordova platforms add android
     ps：删除插件命令
         cordova platforms rm ios
-    
+        cordova platforms rm android
+       添加不同android版本
+        cordova platforms add android@4.1.1 //添加不同android版本
+        
+ ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/7.png)
+  ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/8.png)
+  
+### 7
     
