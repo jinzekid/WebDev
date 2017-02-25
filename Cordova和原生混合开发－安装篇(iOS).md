@@ -34,14 +34,12 @@
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/9.png)
 ### 14.最后把ViewController.h文件修改如下，编译后就可以运行了。</br>
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/11.png)
-
-------------我是分割线------------
 ===================================
 方法2:(使用ionic)
 ===================================
 ### 1.安装ionic
       $npm install -g cordova ionic
-### 2.开始一个项目（三种方法
+### 2.开始一个项目（三种方法）
       $ionic start --v2 myApp blank
       $ionic start --v2 myApp tabs
       $ionic start --v2 myApp sidemenu
