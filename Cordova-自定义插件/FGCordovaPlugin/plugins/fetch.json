@@ -1,0 +1,26 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-filewrite": {
+        "source": {
+            "type": "local",
+            "path": "customPlugins/FileWrite"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-fg-filewrite": {
+        "source": {
+            "type": "local",
+            "path": "customPlugins/FGFileWriter"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
