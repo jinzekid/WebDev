@@ -2,22 +2,17 @@
 ===================================  
 ### 1.创建一个Cordova目录</br>
       $mkdir Cordova
-2.进入Cordova目录</br>
-&nbsp&nbsp$cd Cordova
-</br></br>
-3.创建一个cordova目录</br>
-   $Cordova cordova create test com.example.hello TestCordova
-</br></br>
-4.进入到test目录</br>
-   $cd test
-</br></br>
-5.指定生成iOS平台的代码项目</br>
-   test$ cordova platforms add ios
-</br></br>
-6.把如图中的文件夹copy到我们的原生项目中
+### 2.进入Cordova目录</br>
+      $cd Cordova
+### 3.创建一个cordova目录</br>
+      $Cordova cordova create test com.example.hello TestCordova
+### 4.进入到test目录</br>
+      $cd test
+### 5.指定生成iOS平台的代码项目</br>
+      test$ cordova platforms add ios
+### 6.把如图中的文件夹copy到我们的原生项目中
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/1.png)
-</br></br>
-7.把2个config.xml文件copy到对应的文件夹
+### 7.把2个config.xml文件copy到对应的文件夹
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/2.png)
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/3.png)
 </br></br>
