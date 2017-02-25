@@ -31,10 +31,11 @@
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/5.png)
 
 ### 5.安装插件
-    输入命令:
-        cordova plugin add 插件路径(路径下面有plugin.xml)
+    输入命令:
+        cordova plugin add 插件路径(路径下面有plugin.xml)
     ps：删除插件命令
         cordova plugin rm cordova-plugin-filewriter
+
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/6.png)
 
 ### 6.添加对应开发平台(自动添加插件)
