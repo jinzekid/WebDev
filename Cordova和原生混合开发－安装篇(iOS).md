@@ -1,9 +1,9 @@
 方法1:(使用Cordova)
 1.创建一个Cordova目录</br>
-   $mkdir Cordova
+&nbsp&nbsp$mkdir Cordova
 </br></br>
 2.进入Cordova目录</br>
-   $cd Cordova
+&nbsp&nbsp$cd Cordova
 </br></br>
 3.创建一个cordova目录</br>
    $Cordova cordova create test com.example.hello TestCordova
