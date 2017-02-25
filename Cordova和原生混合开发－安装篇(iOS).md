@@ -1,6 +1,6 @@
 方法1:(使用Cordova)</br>
-1.创建一个Cordova目录</br>
->$mkdir Cordova
+### 1.创建一个Cordova目录</br>
+      $mkdir Cordova
 </br></br>
 2.进入Cordova目录</br>
 &nbsp&nbsp$cd Cordova
@@ -73,6 +73,3 @@ PS:基本方法和Cordova大致一样。如果有新加的插件，需要把plug
 参考网址：http://www.jianshu.com/p/e982b9a85ae8
 </br></br>
 参考网址：http://ionicframework.com/getting-started/
-
-### 单行文本框  
-    这是一个单行的文本框,只要两个Tab再输入文字即可
