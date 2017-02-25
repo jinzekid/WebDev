@@ -15,36 +15,30 @@
 ### 7.把2个config.xml文件copy到对应的文件夹
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/2.png)
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/3.png)
-</br></br>
-8.配置参数
-点击①中的按钮创建"New Run Script Phase" ，②为创建的"Run Script"
+### 8.配置参数
+      点击①中的按钮创建"New Run Script Phase" ，②为创建的"Run Script"
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/4.png)
-</br></br>
-9.将中①原名称"Run Script"修改为"Copy www directory"；将②中的选项去掉；将下面的代码复制到③中:
-代码如下：
-NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js
+### 9.将中①原名称"Run Script"修改为"Copy www directory"；将②中的选项去掉；将下面的代码复制到③中:
+      代码如下：
+      NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/5.png)
-</br></br>
-10.Build Settings -> Other Linker Flags 中添加"-ObjC -all_load"（或者"-ObjC"）
+### 10.Build Settings -> Other Linker Flags 中添加"-ObjC -all_load"（或者"-ObjC"）
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/6.png)
-</br></br>
-11.添加CordovaLib.xcodeproj到项目
+### 11.添加CordovaLib.xcodeproj到项目
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/7.png)
-</br></br>
-12.添加www文件夹和config.xml文件
+### 12.添加www文件夹和config.xml文件
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/8.png)
-</br></br>
-13.Schemes按照下图配置，然后编译一次程序，最后导入下面两项</br></br>
-Build Phases -> Target Dependencies -> CordovaLib</br></br>
-Build Phases -> Link Binary With Libraries -> libCordova.a</br></br>
+### 13.Schemes按照下图配置，然后编译一次程序，最后导入下面两项</br></br>
+      Build Phases -> Target Dependencies -> CordovaLib</br></br>
+      Build Phases -> Link Binary With Libraries -> libCordova.a</br></br>
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/9.png)
-</br></br>
-14.最后把ViewController.h文件修改如下，编译后就可以运行了。</br>
+### 14.最后把ViewController.h文件修改如下，编译后就可以运行了。</br>
 ![image](https://github.com/jinzekid/ionic-native-hybirdDev/blob/master/src/imgs/11.png)
-</br></br>
+
 -------------------------------------我是分割线----------------------------------
-</br></br>
-方法2:(推荐使用ionic)</br>
+===================================
+方法2:(使用ionic)
+===================================
 1.安装ionic</br>
 - $ npm install -g cordova ionic
 </br></br>
