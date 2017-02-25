@@ -1,4 +1,5 @@
-方法1:(使用Cordova)</br>
+方法1:(使用Cordova)
+===================================  
 ### 1.创建一个Cordova目录</br>
       $mkdir Cordova
 2.进入Cordova目录</br>
