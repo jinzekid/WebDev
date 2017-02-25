@@ -1,6 +1,6 @@
 方法1:(使用Cordova)
 1.创建一个Cordova目录</br>
-###$mkdir Cordova
+#$mkdir Cordova
 </br></br>
 2.进入Cordova目录</br>
 &nbsp&nbsp$cd Cordova
