@@ -1,4 +1,6 @@
-package cordova-plugin-fg-filewrite;
+package cordova.FGFileWriter;
+
+import android.util.Log;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -23,6 +25,7 @@ public class FGFileWriter extends CordovaPlugin {
     }
 
     private void coolMethod(String message, CallbackContext callbackContext) {
+        Log.v("debug!", message);
         if (message != null && message.length() > 0) {
             callbackContext.success(message);
         } else {

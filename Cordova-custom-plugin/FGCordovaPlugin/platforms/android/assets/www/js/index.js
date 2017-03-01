@@ -44,3 +44,19 @@ var app = {
 };
 
 app.initialize();
+
+
+function gotoSecondActiviy() {
+// 以下方式直接跳转
+window.location.href='file:///android_asset/www/second.html';
+// 以下方式定时跳转
+//setTimeout("javascript:location.href='hello.html'", 5000);
+
+//    cordova.plugins.FGFileWriter.coolMethod("Toast测试", onSuccess, onError);
+//    function onSuccess(Data){
+//        alert(JSON.stringify(Data));
+//    }
+//    function onError(Data){
+//        alert(JSON.stringify(Data));
+//    }
+}

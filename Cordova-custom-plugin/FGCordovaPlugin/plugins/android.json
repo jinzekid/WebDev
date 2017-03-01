@@ -7,10 +7,10 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-fg-filewrite": {
             "PACKAGE_NAME": "com.fugumobile.writeFile"
         },
-        "cordova-plugin-fg-filewrite": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.fugumobile.writeFile"
         }
     },
