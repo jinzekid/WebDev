@@ -64,6 +64,10 @@
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/13.png)
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/14.png) 
 
+### 11.android注意事项
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/15.png) 
+
+
 ### 参考网址：
     https://taco.visualstudio.com/en-us/docs/createplugintutorial/
     http://www.jianshu.com/p/d24219c008b6
