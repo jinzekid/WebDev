@@ -18,4 +18,4 @@
 ### 4.替换MainActivity文件内容如下
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/CordovaIntegrateIntoAndroid/10.png)
 
-### 5.编译运行，就可以出现index.html页面内容。至此原生项目继承Cordova就完成了。
+### 5.编译运行，就可以出现index.html页面内容。至此原生项目集成Cordova框架就完成了。
