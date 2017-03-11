@@ -10,8 +10,8 @@
 ![image](https://github.com/jinzekid/WebDev/blob/master/chromeweb%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/img/3.png)
 
 ### 4.sources下面出现web文件夹，点击”Map to System Resource"
-![image](https://github.com/jinzekid/WebDev/blob/master/chromeweb%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/img/4.png)
-![image](https://github.com/jinzekid/WebDev/blob/master/chromeweb%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/img/5.png)
+![image](https://github.com/jinzekid/WebDev/blob/master/chromeweb%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/img/4.png)</br>
+![image](https://github.com/jinzekid/WebDev/blob/master/chromeweb%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/img/5.png)</br>
 ![image](https://github.com/jinzekid/WebDev/blob/master/chromeweb%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/img/6.png)
 
 ### 5.至此就可以同步修改源文件了:)
