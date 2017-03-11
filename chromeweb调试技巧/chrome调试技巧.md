@@ -1,4 +1,4 @@
-谷歌开发工具保存修改：
+谷歌开发工具直接保存修改内容（映射到工程源代码）：
 ===================================  
 ### 1.打开google调试工具
 ![image](https://github.com/jinzekid/WebDev/blob/master/chromeweb%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7/img/1.png)
