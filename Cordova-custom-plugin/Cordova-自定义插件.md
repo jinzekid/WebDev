@@ -1,3 +1,4 @@
+#   iOS篇
 ### 1.创建插件信息(在customPlugins文件夹中)
     plugman create --name FileWriter --plugin_id cordova-plugin-filewriter --plugin_version 0.0.1
     
@@ -7,7 +8,7 @@
         oversion: 版本, egg : 0.0.1
         directory:一个绝对或相对路径的目录，该目录将创建插件项目
         variable NAME=VALUE: 额外的描述，如作者信息和相关描述
-    
+       
 ![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/1.png)
 
 ### 2.生成对应的原生文件
@@ -71,4 +72,31 @@
 ### 参考网址：
     https://taco.visualstudio.com/en-us/docs/createplugintutorial/
     http://www.jianshu.com/p/d24219c008b6
+
+#   Android篇
+### 1.打开原生项目，复制js文件
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/16.png)
+
+### 2.添加已经创建的插件,在src中找到对应的java文件夹，复制到app/java中(把android平台下，src/FGCordovaPlugin文件夹复制到原生app文件夹下面注意在复制java文件时候，一定要在main的package下，要不然会找不到java文件的（不要在test下添加包）)
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/17.png)
+
+### 3.修改Corodova_plugins.js文件，把插件添加进来
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/18.png)
+
+### 4.修改res/xml/config.xml文件（如果没有对应的插件需要删除避免崩溃）
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/19.png)
+
+### 5.测试插件
+    5.1修改index.html文件
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/20.png)
+
+    5.2修改js/index.js文件
+![image](https://github.com/jinzekid/cordova-native-hybirdDev/blob/master/src/imgs/cordova%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8F%92%E4%BB%B6/21.png)
+
+
+
+
+
+
+
 
